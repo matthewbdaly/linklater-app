@@ -1,0 +1,19 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/.*
+<PROJECT_ROOT>/config/.*
+<PROJECT_ROOT>/public/.*
+<PROJECT_ROOT>/scripts/.*
+.*\.test\.js
+.*\.scss
+
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+module.name_mapper.extension='scss' -> '<PROJECT_ROOT>/CSSModuleStub.js'
+
+[strict]
